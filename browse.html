@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Browse Documents | YasserDoc</title>
+    <link rel="stylesheet" href="browse.css">
+</head>
+<body>
+    <!-- Header -->
+    <header class="main-header">
+        <div class="container">
+            <a href="index.html" class="logo-link">YasserDoc</a>
+            <nav>
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="login.html">Login</a></li>
+                    <li><a href="signup.html">Sign Up</a></li>
+                    <li><a href="browse.html">Browse</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <!-- Browse Section -->
+    <main class="browse-main">
+        <div class="browse-container">
+            <h1>Search for Documents</h1>
+            <form action="" method="GET" class="search-form">
+                <div class="search-group">
+                    <label for="search-term">Search Documents</label>
+                    <input type="text" id="search-term" name="search-term" placeholder="Enter document name or category..." required>
+                </div>
+                <div class="search-group">
+                    <label for="category">Category</label>
+                    <select name="category" id="category">
+                        <option value="">All Categories</option>
+                        <option value="Systèmes Embarqués pour l’Automobile">Systèmes Embarqués pour l’Automobile</option>
+                        <option value="Informatique Industrielle et Robotique">Informatique Industrielle et Robotique</option>
+                        <option value="Génie Industriel et Logistique">Génie Industriel et Logistique</option>
+                        <option value="Génie Logiciel">Génie Logiciel</option>
+                        <option value="Infrastructure Digitale Réseau et Sécurité">Infrastructure Digitale Réseau et Sécurité</option>
+                        <option value="Ingénierie Informatique et Sciences de Données">Ingénierie Informatique et Sciences de Données</option>
+                        <option value="Technologies Agro-Alimentaires">Technologies Agro-Alimentaires</option>
+                        <option value="Techniques de Management">Techniques de Management</option>
+                        <option value="Qualité Industrielle">Qualité Industrielle</option>
+                        <option value="Génie Electrique et Systèmes Industriels">Génie Electrique et Systèmes Industriels</option>
+                    </select>
+                </div>
+                <button type="submit" class="submit-btn">Search</button>
+            </form>
+        </div>
+    </main>
+
+    <!-- Footer -->
+    <footer class="main-footer">
+        <div class="footer-container">
+            <div class="footer-section">
+                <h4>About YasserDoc</h4>
+                <ul>
+                    <li><a href="#">Our Mission</a></li>
+                    <li><a href="#">Privacy Policy</a></li>
+                    <li><a href="#">Terms & Conditions</a></li>
+                </ul>
+            </div>
+            <div class="footer-section">
+                <h4>Follow Us</h4>
+                <ul>
+                    <li><a href="#" class="social-icon"><img src="facebook.jpg" alt="Facebook"></a></li>
+                    <li><a href="#" class="social-icon"><img src="twitter.jpg" alt="Twitter"></a></li>
+                    <li><a href="#" class="social-icon"><img src="instagram.jpg" alt="Instagram"></a></li>
+                </ul>
+            </div>
+            <div class="footer-section">
+                <p>&copy; 2024 YasserDoc. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+</body>
+</html>
